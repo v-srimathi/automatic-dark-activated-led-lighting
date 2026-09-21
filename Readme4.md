@@ -9,7 +9,7 @@ Automatic Dark-Activated LED Lighting Circuit Using LDR and NPN Transistor
 Mining sites operate through both day and night, and their work areas, walkways and haul roads need adequate lighting at all times. Manual switching of lights is unreliable. Lights left on in daylight waste energy, and lights not switched on after dark endanger workers. Poor visibility can cause falls and can leave roads blocked by unseen obstacles, so reliable lighting is necessary for worker safety and smooth movement. A lighting system that responds to the surrounding light level without human intervention is therefore required.
 
  3\. SOLUTION  
-An automatic light-sensing circuit is proposed. A light-dependent resistor (LDR) senses the ambient light, and an NPN transistor switches an LED accordingly. The LED turns \*\*on at night\*\* when the light level is low and \*\*off during the day\*\* when it is high. Team Link Force demonstrated the solution on a cardboard mine model (Figures 3.4 and 3.5).
+An automatic light-sensing circuit is proposed. A light-dependent resistor (LDR) senses the ambient light, and an NPN transistor switches an LED accordingly. The LED turns \*\*on at night\*\* when the light level is low and \*\*off during the day\*\* when it is high. Team Link Force demonstrated the solution on a cardboard mine model (Figures 3.4).
 
  4\. OBJECTIVE  
 To design an automatic light-sensing circuit that switches an LED on in darkness and off in daylight, as a lighting solution for mine sites, to verify its operation in simulation, and to demonstrate it on a hardware model.
@@ -36,7 +36,7 @@ To design an automatic light-sensing circuit that switches an LED on in darkness
 
 The prototype was assembled on a solderless breadboard powered by a 9 V battery, as shown in Figure 3.1. The hardware used a ready-made LDR sensor module for the light-sensing stage, while the design and simulation use a discrete LDR, R1 and transistor. The photograph shows the battery, the blue sensor module, a yellow LED and the jumper wiring, with the LED lit.
 
-![][image1]  
+![board](board4.jpeg)  
 Figure 3.1: Breadboard prototype with LDR sensor module, LED and 9 V battery
 
                
@@ -60,17 +60,17 @@ Table 3.2: Circuit connections
 7\. SIMULATION  
 The circuit was simulated in Tinkercad Circuits to verify the switching action, as shown in Figure 3.2. The light-level slider sets the illumination on the LDR.  
 Figure 3.2: Circuit simulation  
-![][image2]  
+![simulation](simulation4.1.jpeg)  
                                                             (a) high light level, LED off
 
-![][image3]
+![simulation](simulation4.2.jpeg)
 
                                                            (b) low light level, LED on
 
  8\. CIRCUIT SCHEMATIC  
 Figure 3.3 shows the schematic. R1 and the LDR form a voltage divider that biases the base of T1, and T1 switches the LED branch (R2 and D1).
 
-![][image4]  
+![schematic](schematic4.jpeg)  
                              
                            Figure 3.3: Circuit schematic of the LDR-controlled LED switch
 
@@ -135,7 +135,7 @@ Table 3.3: Simulation vs. hardware results
 
         
 
-              ![][image5]  
+              ![result](result4.jpeg)  
    
 Figure 3.4: Interior of the model showing the breadboard, wiring, battery and illuminated LED
 
