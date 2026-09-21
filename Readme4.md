@@ -135,7 +135,7 @@ Table 3.3: Simulation vs. hardware results
 
         
 
-              ![result](result4.jpeg)  
+   ![resut](resut4.jpeg)  
    
 Figure 3.4: Interior of the model showing the breadboard, wiring, battery and illuminated LED
 
